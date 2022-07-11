@@ -14,7 +14,6 @@ import (
 )
 
 var (
-	UserID = make(map[string]int)
 	db, _  = sql.Open("sqlite3", "birthday.db")
 )
 
